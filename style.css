@@ -296,7 +296,7 @@ a:hover {
 
 .navbar-brand {
     height: auto;
-    padding: 3px 15px;
+    padding: 3px 5px;
     font-size: 25px;
     font-weight: normal;
     font-weight: 600;
@@ -664,6 +664,11 @@ a {
     color: #575757;
 }
 
+.recommandation-text {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
 .container {
     max-width: 1000px;
 }
@@ -687,7 +692,8 @@ a {
 }
 
 p {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
 }
 
 .tight-width-whitespace {
@@ -715,7 +721,7 @@ p {
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 1.9rem;
     line-height: 1.4em;
 }
 
@@ -835,7 +841,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
     width: 100%;
     height: fit-content;
 }
@@ -861,17 +867,29 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+    .recommandation-text {
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
+    .recommandation-text {
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
+    }
+    .recommandation-text {
+        font-size: 1.8rem;
+        font-weight: 400;
     }
 }
 
@@ -902,6 +920,10 @@ h4 {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
+    .recommandation-text {
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
 }
 
 @media (max-width: 767px) {
@@ -919,6 +941,24 @@ h4 {
     #disqus_thread {
         padding-left: 10px;
         padding-right: 10px;
+    }
+    .titre-bloc2 {
+        text-align: justify;
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+    .recommandation-text {
+        text-align: justify;
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+    .recommandation-signature {
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    .text-justify {
+        text-align: justify;
     }
     .b-parallax {
         background-attachment: scroll;
