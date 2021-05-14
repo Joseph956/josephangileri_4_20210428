@@ -83,7 +83,7 @@ a:hover {
 .bloc-bg-texture::before {
     content: "";
     background-size: 2px 2px;
-    /*position: absolute;*/
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
@@ -91,8 +91,10 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
+    /*background: url("img/texture-paper.png");
+    background-size: 2px 2px;
+    width: 100%;
+    height: fit-content;*/
 }
 
 .b-parallax {
@@ -307,6 +309,13 @@ a:hover {
     display: inline;
 }
 
+.agence {
+    padding: 20px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
 .navbar-brand img[src$=svg] {
     min-width: 100px;
 }
@@ -316,6 +325,7 @@ a:hover {
 }
 
 .navbar .nav {
+    display: block;
     padding-top: 2px;
     margin-right: -16px;
     float: right;
@@ -366,7 +376,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
+        right: 10rem;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -651,7 +661,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -673,16 +683,16 @@ a {
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 p {
-    font-size: 11px;
+    font-size: 1.8rem;
 }
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 .h1 {
@@ -692,7 +702,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -701,11 +711,11 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 2.5rem;
     line-height: 1.4em;
 }
 
@@ -718,12 +728,12 @@ h3 {
 
 .med-width-whitespace {
     max-width: 800px;
-    margin: auto auto auto auto;
+    margin: auto;
     box-shadow: 0px 0px 0px #000000;
 }
 
 h1 {
-    color: #333333!important;
+    color: #333333;
 }
 
 h4 {
@@ -736,7 +746,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .portfolio-thumb {
@@ -753,13 +763,13 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
-    padding: 40px 40px 40px 40px;
+    background-color: rgba(165, 147, 99, 0.5);
+    padding: 40px;
 }
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
+    text-decoration: underline;
 }
 
 .bgc-white {
@@ -771,42 +781,43 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #392a22;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #f7f2b6;
+    text-align: justify;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #392a22;
+    color: #FFFFFF;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #b3af83;
+    color: #FFFFFF;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #cccccc;
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #F3976C;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #c27956;
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #364577;
+    border-color: #364577;
 }
 
 .bg-dots-bg {
@@ -819,10 +830,14 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
+    width: 100%;
+    height: auto;
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+    width: 100%;
+    height: fit-content;
 }
 
 @media (max-width: 1024px) {
@@ -902,8 +917,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .b-parallax {
         background-attachment: scroll;
