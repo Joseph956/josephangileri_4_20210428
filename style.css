@@ -705,8 +705,8 @@ p {
 .text-bloc4 {
     display: inline-block;
     font-size: 2.2rem;
-    font-weight: 600;
-    width: 95%;
+    font-weight: 500;
+    width: 50%;
 }
 
 .text-design {
@@ -768,7 +768,7 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
+.white1 {
     color: #FFFFFF;
     font-size: 1.8rem;
 }
@@ -810,9 +810,19 @@ h4 {
 
 .tc-white {
     color: #f7f2b6;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    width: 40%;
+    margin: auto;
+}
+
+.tc1-white {
+    color: #f7f2b6;
     text-align: justify;
     font-size: 2rem;
-    font-weight: 400;
+    font-weight: 500;
+    width: 100%;
 }
 
 .btn-atomic-tangerine {
@@ -908,15 +918,15 @@ h4 {
     .text-bloc2 {
         text-align: center;
         font-size: 2.2rem;
-        font-weight: 600;
+        font-weight: 500;
         display: inline-block;
         width: 65%;
     }
     .text-bloc4 {
         display: inline-block;
         font-size: 2.2rem;
-        font-weight: 600;
-        width: 95%;
+        font-weight: 500;
+        width: 50%;
     }
     .recommandation-signature {
         width: 90%;
@@ -954,7 +964,7 @@ h4 {
     .text-bloc2 {
         text-align: center;
         font-size: 2rem;
-        font-weight: 600;
+        font-weight: 500;
         display: inline-block;
         width: 90%;
     }
@@ -980,13 +990,13 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .text-bloc2 {
         text-align: justify;
-        font-size: 1.8rem;
-        font-weight: 600;
+        font-size: 2.2rem;
+        font-weight: 500;
         width: 96%;
     }
     .text-bloc4 {
@@ -994,7 +1004,7 @@ h4 {
         text-align: justify;
         font-size: 2rem;
         font-weight: 500;
-        width: 95%;
+        width: 90%;
     }
     .recommandation-text {
         text-align: justify;
@@ -1012,6 +1022,18 @@ h4 {
     }
     .text-justify {
         text-align: justify;
+    }
+    .tc-white {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .white1 {
+        width: 100%;
+        margin: auto;
+        padding: 0 0 1rem 0;
+        font-size: 1.8rem;
+        color: white;
     }
     .b-parallax {
         background-attachment: scroll;
