@@ -702,6 +702,12 @@ p {
     letter-spacing: 1px;
 }
 
+.infos-contact{
+    margin: auto;
+    padding: 0 1rem 0 1rem;
+    text-align: justify;
+}
+
 .text-bloc4 {
     display: inline-block;
     font-size: 2.2rem;
@@ -735,6 +741,9 @@ p {
 .social {
     max-width: 400px;
     margin: auto;
+    padding: 1rem 0;
+    display: block;
+    color: white;
 }
 
 h2 {
@@ -1023,10 +1032,16 @@ h4 {
     .text-justify {
         text-align: justify;
     }
+    .text1-justify {
+        text-align: justify;
+        margin: auto;
+        padding: 0 1rem 0 1rem;
+    }
     .tc-white {
         width: 100%;
         margin: auto;
         text-align: center;
+        padding: 0 1rem 0 1rem;
     }
     .white1 {
         width: 100%;
@@ -1034,6 +1049,21 @@ h4 {
         padding: 0 0 1rem 0;
         font-size: 1.8rem;
         color: white;
+    }
+    .social {
+        max-width: 400px;
+        margin: auto;
+        padding: 1rem 0;
+        display: block;
+        color: white;
+    }
+    .col-sm-3 {
+        width: 100%;
+    }
+    .infos-contact{
+        margin: auto;
+        padding: 0 1rem 0 1rem;
+        text-align: center;
     }
     .b-parallax {
         background-attachment: scroll;
