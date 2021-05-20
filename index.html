@@ -2,25 +2,30 @@
 <html lang="fr-FR">
 <head>
 	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <meta name="keywords" content="site web, site internet, agence design paris">
     <meta name="description" content="Agence web à paris, stratégie web, web design, illustrations, design de site web">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="robots" content="index, follow">
 	
-	<!-- CSS only -->
+	<!-- CSS only 
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" 
-	integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+	integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">-->
 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
+	integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
 	<link rel="apple-touch-icon" href="/favicon.jpg">
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
-	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
+	
 
     <link rel="canonical" href="https://www.joseph956.github.io/josephangileri_4_20210428/">
 
-	<script src="./js/jquery-2.1.0.js" defer></script>
+	<script src="./js/jquery-3.6.0.js" defer></script>
 	<script src="./js/bootstrap.js" defer></script>
 	<script src="./js/blocs.js" defer></script>
 	<script src="./js/jquery.touchSwipe.js" defer></script>
@@ -49,7 +54,7 @@
 		<nav class="navbar row">
 			<div class="navbar-header">
 				<a class="navbar-brand" href="index.html">
-					<img src="img/la-chouette-agence.png" alt="paris web design logo agence web meilleure agence" height="40"/>
+					<img src="img/la-chouette-agence.png" alt="paris web design logo agence web meilleure agence"/>
 				</a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Menu de navigation</span>
@@ -80,8 +85,8 @@
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace">
 			<div class="col-sm-12">
-				<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="logo de La chouette agence, création de web design à paris"/>
-				<h1 class="text-center hero-bloc-text tc-white ">La chouette agence.</h1>
+				<img src="img/logo.png" class="center-block image-resize-mode" alt="logo de La chouette agence, création de web design à paris"/>
+				<h1 class="text-center hero-bloc-text tc-white ">La chouette agence</h1>
 				<div class="text-center">
 					<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
 				</div>
@@ -104,8 +109,8 @@
 				<div class="text-center">
 					<span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg"></span>
 				</div>
-				<h3 class="mg-md text-center">Web design</h3>
-				<p class="text-justify text-design">
+				<h2 class="mg-md text-center">Web design</h2>
+				<p class="text-center text-design">
 					Que vous ayez un site web qui a besoin d'un rafraîchissement ou que vous partiez de zéro, laissez-nous vous réaliser un design dont vous serez fier.
 				</p>
 			</div>
@@ -113,8 +118,8 @@
 				<div class="text-center">
 					<span class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg"></span>
 				</div>
-				<h3 class="mg-md text-center">Stratégie</h3>
-				<p class="text-justify text-design">
+				<h2 class="mg-md text-center">Stratégie</h2>
+				<p class="text-center text-design">
 					Plutôt que de suggérer des designs à la mode, nous travaillerons avec vous pour comprendre vos objectifs commerciaux afin de vous proposer le meilleur design possible.<br>
 				</p>
 			</div>
@@ -122,10 +127,8 @@
 				<div class="text-center">
 					<span class="et-icon-edit sm-shadow icon-dark-slate-blue icons icon-lg"></span>
 				</div>
-				<h3 class="mg-md text-center">
-					Illustrations
-				</h3>
-				<p class="text-justify text-design">
+				<h2 class="mg-md text-center">Illustrations</h2>
+				<p class="text-center text-design">
 					Un bon design n'est rien sans de bonnes illustrations. Laissez faire notre équipe de graphistes talentueux pour donner à vos pages une touche finale d'élégance.
 				</p>
 			</div>
@@ -140,8 +143,8 @@
 </section>
 <!-- section bloc-2-services END -->
 
-<!-- bloc-3-what-i-do -->
-<div class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax" id="bloc-3-what-i-do">
+<!-- section bloc-3-what-i-do -->
+<section class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax" id="bloc-3-what-i-do">
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace black-background">
 			<div class="col-sm-12">
@@ -154,11 +157,11 @@
 			</div>
 		</div>
 	</div>
-</div>
-<!-- bloc-3-what-i-do END -->
+</section>
+<!-- section bloc-3-what-i-do END -->
 
-<!-- bloc-4-portfolio -->
-<div class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
+<!-- section bloc-4-portfolio -->
+<section class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12 text-center">
@@ -176,9 +179,7 @@
 				<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb">
 					<img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour photographes" />
 				</a>
-				<h3 class="mg-md text-justify">
-					Création d'un site web pour photographes
-				</h3>
+				<h3 class="mg-md text-justify">Création d'un site web pour photographes</h3>
 				<p class="text-justify">
 					Nous avons conçu la plateforme idéale pour laisser place aux clichés des photographes.
 				</p>
@@ -189,9 +190,7 @@
 				<a href="#" data-lightbox="img/3.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb">
 					<img src="img/3.jpg" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour voyageur"/>
 				</a>
-				<h3 class="mg-md text-justify">
-					Création d'un site internet pour un voyageur
-				</h3>
+				<h3 class="mg-md text-justify">Création d'un site internet pour un voyageur</h3>
 				<p class="text-justify">
 					Nous avons élaboré un site internet et des illustrations pour sublimer les vidéos et les articles de ce voyageur.
 				</p>
@@ -200,40 +199,38 @@
 				<a href="#" data-lightbox="img/4.jpg" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb">
 					<img src="img/4.jpg" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour agence de mariage"/>
 				</a>
-				<h3 class="mg-md text-justify">
-					Conception d'un site pour une agence de mariage
-				</h3>
+				<h3 class="mg-md text-justify">Conception d'un site pour une agence de mariage</h3>
 				<p class="text-justify">
 					Nous avons travaillé avec cette agence pour créer un site internet permettant la présentation détaillée de leurs prestations.
 				</p>
 			</div>
 		</div>
 	</div>
-</div>
-<!-- bloc-4-portfolio END -->
+</section>
+<!-- section bloc-4-portfolio END -->
 
-<!-- bloc-5-cta -->
-<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
+<!-- section bloc-5-cta -->
+<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
 	<div class="container bloc-lg">
 		<div class="row">
-			<h2 class="mg-md text-justify tc-white">
-				Prêt pour redonner vie à votre projet ? Contactez notre équipe !
+			<h2 class="mg-md text-center tc-white">
+				Prêt à redonner vie à votre projet ?<br> Contactez notre équipe !
 			</h2>
 			<div class="col-sm-12 text-center">
 				<a href="contact.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
 			</div>
 		</div>
 	</div>
-</div>
-<!-- bloc-5-cta END -->
+</section>
+<!-- section bloc-5-cta END -->
 
 <!-- Footer - bloc-8 -->
 <footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
-	<div class="container bloc-sm">
+	<section class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
 				<p class="text-center white1">
-					La chouette agence - Agence web basée à Lyon.<br>
+					- La chouette agence - <br> Agence web basée à Lyon
 				</p>
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
@@ -263,7 +260,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 </footer>
 <!-- Footer - bloc-8 END -->
 
@@ -272,4 +269,6 @@
     
 
 </body>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </html>
