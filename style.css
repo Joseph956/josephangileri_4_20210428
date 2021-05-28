@@ -673,7 +673,7 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #050505;
-    font-size: 2rem;
+    font-size: 1.6rem;
     
 }
 
@@ -882,14 +882,14 @@ h4 {
 }
 
 .tc1-white {
-    color: #f7f2b6;
+    color: #f1f1f1;
     text-align: justify;
     font-size: 2rem;
     font-weight: 500;
 }
 
 .btn-atomic-tangerine {
-    background: #392a22;
+    background: #2c2016;
     color: #FFFFFF;
 }
 
