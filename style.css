@@ -235,7 +235,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: black;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -340,6 +340,16 @@ a:hover {
     font-size: 16px;
 }
 
+.navaccueil {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.navcontact {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
@@ -351,6 +361,7 @@ a:hover {
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
+    padding: 9px 3px;
     border: 0px;
 }
 
@@ -380,7 +391,7 @@ a:hover {
         top: 50%;
         right: 10rem;
         transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
+       /* -webkit-transform: translateY(-50%);*/
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -676,6 +687,29 @@ a {
     
 }
 
+.courrier {
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem 0 1rem;
+    margin: 0 1rem;
+    font-size: 2rem;
+    color: darkblue;
+    font-weight: 700;
+}
+
+.adresse {
+    font-size: 1.8rem;
+    color: black;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.horaires {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
 .recommandation-text {
     font-size: 2.2rem;
     font-weight: 500;
@@ -705,6 +739,10 @@ a {
     font-weight: lighter;
     max-width: 520px;
     margin: auto;
+}
+
+.text-justify {
+    text-align: center;
 }
 
 p {
@@ -821,6 +859,12 @@ h4 {
     font-size: 2rem;
     letter-spacing: 1px;
     line-height: inherit;
+    text-align: center;
+}
+
+.agencefooter {
+    color: #FFFFFF;
+    text-align: center;
 }
 
 .img-responsive {
@@ -863,7 +907,7 @@ h4 {
 }
 
 .tc-white {
-    color: #f1f1f1;
+    color: cornsilk;
     text-align: center;
     font-size: 2.8rem;
     font-weight: 500;
@@ -880,9 +924,16 @@ h4 {
     font-size: 1.4rem;
 }
 
+.tc11-white {
+    color: cornsilk;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
 .tc1-white {
-    color: #f1f1f1;
-    text-align: justify;
+    color: cornsilk;
+    text-align: center;
     font-size: 2rem;
     font-weight: 500;
 }
@@ -975,16 +1026,7 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
     .text-bloc2 {
         text-align: center;
         font-size: 2.2rem;
@@ -1016,10 +1058,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -1028,12 +1066,10 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
     .text-bloc2 {
         text-align: center;
-        font-size: 2rem;
+        font-size: 2.2rem;
         font-weight: 500;
         display: inline-block;
         width: 90%;
