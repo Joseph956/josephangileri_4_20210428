@@ -309,7 +309,7 @@ a:hover {
     display: flex;
     height: auto;
     padding: 1px 5px;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: normal;
     line-height: 44px;
 }
@@ -711,7 +711,7 @@ a {
 .titrecontact {
     color: darkslategray;
     font-weight: bold;
-    margin-bottom: 0px;
+    margin-top: 30px;
     font-size: 3rem;
     line-height: 1em;
     font-family: 'Viaoda Libre',cursive;
@@ -913,6 +913,7 @@ h4 {
 
 .lien-1 {
     color: #FFFFFF;
+    line-height: 2em;
 }
 
 .liens {
