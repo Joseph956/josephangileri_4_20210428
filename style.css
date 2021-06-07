@@ -46,7 +46,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 8rem 2rem 14rem;
+    padding: 8rem 2rem 18rem 0;
 }
 
 .bloc-md {
@@ -295,10 +295,18 @@ a:hover {
 .navbar {
     margin-bottom: 0;
     z-index: 1;
-    display: block;
+}
+
+.navbar-header p {
+    font-size: 1em;
+    font-weight: 600;
+    font-family: 'Viaoda Libre',cursive;
+    padding: 2px;
+    color: black;
 }
 
 .navbar-brand {
+    display: flex;
     height: auto;
     padding: 1px 5px;
     font-size: 25px;
@@ -309,6 +317,8 @@ a:hover {
 .navbar-brand img {
     max-height: 50px;
     display: inline;
+    width: 15%;
+    height: 20%;
 }
 
 .agence {
@@ -328,8 +338,7 @@ a:hover {
 
 .navbar .nav {
     display: block;
-    padding-top: 2px;
-    margin-right: -16px;
+    margin: -5px -16px;
     float: right;
     z-index: 1;
 }
@@ -399,9 +408,9 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 10rem;
+        right: 20px;
         transform: translate(0, -50%);
-       /* -webkit-transform: translateY(-50%);*/
+        -webkit-transform: translateY(-50%);
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -705,12 +714,13 @@ a {
     margin-bottom: 0px;
     font-size: 3rem;
     line-height: 1em;
+    font-family: 'Viaoda Libre',cursive;
 }
 
 .conseilcreations {
-    margin-top: 0px;
+    margin-top: 5px;
     text-align: start;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .adressecontact {
@@ -877,11 +887,39 @@ h4 {
 
 .white1 {
     color: #FFFFFF;
-    font-size: 2.2rem;
+    font-size: 1.6rem;
     letter-spacing: 1px;
     line-height: inherit;
     text-align: center;
     margin-bottom: 0px;
+}
+
+.whitefooter {
+    font-size: 2.2rem;
+}
+
+.liensexternes {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.partenaires {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.lien-1 {
+    color: #FFFFFF;
+}
+
+.liens {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 2rem;
 }
 
 .agencefooter {
@@ -957,7 +995,7 @@ h4 {
 .tc1-white {
     color: #f5d865;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 1.6em;
 }
 
@@ -1013,14 +1051,14 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.webp");
     object-fit: cover;
     width: 100%;
     height: auto;
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.webp");
     object-fit: cover;
     width: 100%;
     height: auto;
@@ -1154,14 +1192,15 @@ h4 {
     .conseilcreations {
         margin-top: 0px;
         text-align: start;
-        font-size: 1rem;
+        font-size: 1.1rem;
         text-align: center;
+        padding-top: 5px;
     }
     .titreadresse {
         text-align: center;
     }
     .adressecontact {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         color: black;
         margin-bottom: 0px;
         text-align: center;
@@ -1304,11 +1343,6 @@ h4 {
         overflow-x: hidden;
         -webkit-box-shadow: none;
         box-shadow: none;
-    }
-    .navbar-brand img {
-        max-height: 40px;
-        width: 100%;
-        height: 40px;
     }
     .nav-invert .navbar-header {
         float: none;

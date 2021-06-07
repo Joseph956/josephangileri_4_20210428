@@ -3,12 +3,14 @@
 <head>
 	<meta charset="utf-8">
     <meta name="description" content="Agence de web design, et d'illustrations de site web implanté dans la ville de Lyon">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="robots" content="index, follow">
 	
 	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
 	<link rel="apple-touch-icon" href="./favicon.jpg">
-	<link rel="preload" as="image" href="/img/la-chouette-agence-banniere.jpg"/>
+	<link rel="preload" as="image" href="/img/la-chouette-agence-banniere.webp"/>
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
@@ -33,12 +35,13 @@
 <main class="page-container">
     
 <!-- header bloc-0 -->
-<header aria-labelledby="la-chouette-agence" id="bloc-0" aria-label="logo" title="banner" class="bloc bgc-white l-bloc">
+<header id="bloc-0" aria-label="logo" title="banner" class="bloc bgc-white l-bloc">
 	<div class="container bloc-sm">
 		<nav aria-label="Menu principal" class="navbar row">
 			<div class="navbar-header">
 				<a class="navbar-brand" href="index.html">
-					<img id="la-chouette-agence" src="img/la-chouette-agence.webp" alt="Banniere de la chouette agence"/>
+					<img id="la-chouette-agence" src="img/chouette.jpg" alt="Banniere de la chouette agence"/>
+					<p>La chouette agence</p>
 				</a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Menu de navigation</span>
@@ -50,10 +53,10 @@
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
-						<a class="navcreations" role="button" title="creations" aria-label="creations, cliquez ici pour explorer nos metiers" href="#bloc-2-services" aria-current="page">Créations</a>
+						<a class="navcreations" role="button" title="creations" aria-label="creations, cliquez ici pour explorer nos metiers" href="#services" aria-current="page">Services</a>
 					</li>
 					<li>
-						<a class="navrealisations" role="button" title="realisations" aria-label="realisations, cliquez ici pour explorer nos realisations" href="#bloc-4-portfolio" aria-current="true" >Réalisations</a>
+						<a class="navrealisations" role="button" title="realisations" aria-label="realisations, cliquez ici pour explorer nos realisations" href="#réalisations" aria-current="true" >Réalisations</a>
 					</li>
 					<li>
 						<a class="navcontact" role="button" title="contactez-nous" aria-label="contact, cliquez ici pour acceder au formulaire de contact" href="contact.html" aria-current="true">Contact</a>
@@ -66,7 +69,7 @@
 <!-- header bloc-0 END -->
 
 <!-- section bloc-1-presentation -->
-<section aria-describedby="bloc-1-hero" id="bloc-1-hero" class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" >
+<section id="bloc-1-hero" class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" >
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace">
 			<div class="col-sm-12">
@@ -80,7 +83,7 @@
 <!-- section bloc-1-presentation END -->
 
 <!-- section bloc-2-services -->
-<section aria-describedby="bloc-2-services" id="bloc-2-services" class="bloc bgc-white l-bloc" >
+<section id="services" class="bloc bgc-white l-bloc" >
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-12 text-center">
@@ -127,7 +130,7 @@
 <!-- section bloc-2-services END -->
 
 <!-- section bloc-3-what-i-do -->
-<section aria-labelledby="bloc-3-what-i-do" id="bloc-3-what-i-do" class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax">
+<section id="bloc-3-what-i-do" class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax">
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace black-background">
 			<div class="col-sm-12">
@@ -145,7 +148,7 @@
 <!-- section bloc-3-what-i-do END -->
 
 <!-- section bloc-4-portfolio -->
-<section aria-labelledby="bloc-4-portfolio" id="bloc-4-portfolio" class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" >
+<section id="réalisations" class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" >
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12 text-center">
@@ -173,7 +176,7 @@
 		<div class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
 				<a  href="#" title="portfolio" aria-label="Création d'un site web pour un voyageur" data-lightbox="img/3.webp" data-gallery-id="gallery-1" data-caption="Création d'un site web pour un voyageur" data-frame="snapshot-lb">
-					<img src="img/3.webp" title="voyageur" class="img-responsive portfolio-thumb" alt="voyageur, Création site web pour voyageur"/>
+					<img src="img/3.webp" title="voyageur" class="img-responsive portfolio-thumb" alt="voyageur, Création d'un site web pour voyageur"/>
 				</a>
 				<h4 class="mg-md text-justify">Création d'un site internet pour un voyageur</h4>
 				<p class="text-justify">
@@ -182,7 +185,7 @@
 			</div>
 			<div class="col-sm-6">
 				<a  href="#" title="portfolio" aria-label="Conception d'un site pour une agence de mariage" data-lightbox="img/4.webp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb">
-					<img src="img/4.webp" title="mariage" class="img-responsive portfolio-thumb" alt="mariage, Création site web pour agence de mariage"/>
+					<img src="img/4.webp" title="mariage" class="img-responsive portfolio-thumb" alt="mariage, Création d'un site web pour une agence de mariage"/>
 				</a>
 				<h4 class="mg-md text-justify">Conception d'un site pour une agence de mariage</h4>
 				<p class="text-justify">
@@ -195,7 +198,7 @@
 <!-- section bloc-4-portfolio END -->
 
 <!-- section bloc-5-cta -->
-<section aria-labelledby="bloc-5-cta" id="bloc-5-cta" class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" >
+<section id="bloc-5-cta" class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" >
 	<div class="container bloc-lg">
 		<div class="row">
 			<h5 class="mg-md text-center tc-white">Un projet ?<br>Parlons-en !</h5>
@@ -214,9 +217,9 @@
 <!-- ScrollToTop Button END-->
 
 <!-- Footer - bloc-8 -->
-<footer aria-labelledby="bloc-8" id="bloc-8" class="bloc bgc-atomic-tangerine d-bloc" >
+<footer id="bloc-8" class="bloc bgc-atomic-tangerine d-bloc" >
 	<section class="container bloc-sm">
-		<h6 class="text-center white1">- La chouette agence -</h6>
+		<h6 class="text-center white1 whitefooter">- La chouette agence -</h6>
 		<p class="agencefooter">Agence web basée à Lyon</p>
 		<div class="row">
 			<div class="col-sm-12">				
@@ -246,6 +249,21 @@
 						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4 ">
+				<div class="liensexternes" >
+					<p class="liens">Nos partenaires</p>
+					<div class="partenaires">
+						<ul>
+							<li><a class="lien-1" href="voiture.com">voiture.com</a></li>
+							<li><a class="lien-1" href="pizza.com">pizza.com</a></li>
+							<li><a class="lien-1" href="matoiture.com">matoiture.com</a></li>
+							<li><a class="lien-1" href="immobilierseo.com">immobilierseo.com</a></li>
+						</ul>
+					</div>
+				</div>		
 			</div>
 		</div>
 	</section>
