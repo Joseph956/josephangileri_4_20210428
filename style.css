@@ -297,7 +297,15 @@ a:hover {
     z-index: 1;
 }
 
-.navbar-header p {
+.navbar-header .raisonsocial {
+    font-size: 1em;
+    font-weight: 600;
+    font-family: 'Viaoda Libre',cursive;
+    padding: 2px;
+    color: black;
+}
+
+.navbar-header .contactlogo {
     font-size: 1em;
     font-weight: 600;
     font-family: 'Viaoda Libre',cursive;
@@ -321,6 +329,10 @@ a:hover {
     height: 20%;
 }
 
+figure {
+    display: flex;
+}
+
 .agence {
     padding: 20px 0;
     overflow: hidden;
@@ -338,7 +350,7 @@ a:hover {
 
 .navbar .nav {
     display: block;
-    margin: -5px -16px;
+    margin: -2px -16px;
     float: right;
     z-index: 1;
 }
@@ -354,7 +366,7 @@ a:hover {
     font-weight: 600;
 }
 
-.navcreations {
+.navservices {
     font-size: 2rem;
     font-weight: 600;
 }
@@ -896,31 +908,6 @@ h4 {
 
 .whitefooter {
     font-size: 2.2rem;
-}
-
-.liensexternes {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-}
-
-.partenaires {
-    display: flex;
-    justify-content: center;
-    color: #FFFFFF;
-    padding: 10px;
-}
-
-.lien-1 {
-    color: #FFFFFF;
-    line-height: 2em;
-}
-
-.liens {
-    display: flex;
-    justify-content: center;
-    color: #FFFFFF;
-    font-size: 2rem;
 }
 
 .agencefooter {
