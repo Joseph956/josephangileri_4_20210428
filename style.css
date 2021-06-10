@@ -28,6 +28,15 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
 .bloc {
     width: 100%;
     clear: both;
@@ -1040,6 +1049,7 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.webp");
+    background-repeat: no-repeat fixed center;
     object-fit: cover;
     width: 100%;
     height: auto;
@@ -1047,6 +1057,7 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
+    background-repeat: no-repeat;
     object-fit: cover;
     width: 100%;
     height: auto;
